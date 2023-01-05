@@ -12,15 +12,17 @@ This package provides an implementation of the inference pipeline of ProDCoNN:
 To run the pipeline:
 (1) setup the environment based on requirements.txt
 
-(2) BBO30: python prediction.py pdb_file_path start_index, end_index BBO 30 output_file
+(2) BBO30: python prediction.py pdb_file_path chain_name start_index, end_index BBO 30 output_file
 
-(3) BBO90: python prediction.py pdb_file_path start_index, end_index BBO 90 output_file
+(3) BBO90: python prediction.py pdb_file_path chain_name start_index, end_index BBO 90 output_file
 
-(4) BBS30: python prediction.py pdb_file_path start_index, end_index BBS 30 output_file
+(4) BBS30: python prediction.py pdb_file_path chain_name start_index, end_index BBS 30 output_file
 
-(5) BBS90: python prediction.py pdb_file_path start_index, end_index BBS 90 output_file
+(5) BBS90: python prediction.py pdb_file_path chain_name start_index, end_index BBS 90 output_file
 
 pdb_file_path: the path to the input pdb file
+
+chain_name: the chain name (A, B, ...) of the predicted residues
 
 start_index: the start index of the prediction along the sequence, count from 1
 
